@@ -1,0 +1,1 @@
+Solutions: https://code.google.com/p/projecteuler-solutions/wiki/ProjectEulerSolutions
