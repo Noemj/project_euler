@@ -7,7 +7,7 @@
 object Problem004 {
   def main(args: Array[String]) = println(palindrome)
 
-  def palindrome = (100 to 999).view.flatMap(n => (2 to 999).map(_ * n)).filter(n => n.toString == n.toString.reverse).max
+  def palindrome = (100 to 999).view.flatMap(n => (100 to 999).map(_ * n)).filter(n => n.toString == n.toString.reverse).max
 
   assert(palindrome == 906609)
 }
